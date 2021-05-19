@@ -1,0 +1,15 @@
+.paginationContainer {
+  display: flex;
+  align-items: center;
+}
+
+.paginationButton {
+  border: none;
+  padding: 4px 12px;
+  margin: 0px 4px;
+}
+
+.paginationIcon {
+  width: 12px;
+  vertical-align: middle;
+}
