@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/scalio_assignment/static/css/main.09eaa852.chunk.css",
+    "main.js": "/scalio_assignment/static/js/main.96e7bc61.chunk.js",
+    "main.js.map": "/scalio_assignment/static/js/main.96e7bc61.chunk.js.map",
+    "runtime-main.js": "/scalio_assignment/static/js/runtime-main.01dedd41.js",
+    "runtime-main.js.map": "/scalio_assignment/static/js/runtime-main.01dedd41.js.map",
+    "static/js/2.c1a5f4ef.chunk.js": "/scalio_assignment/static/js/2.c1a5f4ef.chunk.js",
+    "static/js/2.c1a5f4ef.chunk.js.map": "/scalio_assignment/static/js/2.c1a5f4ef.chunk.js.map",
+    "static/js/3.07a6c19d.chunk.js": "/scalio_assignment/static/js/3.07a6c19d.chunk.js",
+    "static/js/3.07a6c19d.chunk.js.map": "/scalio_assignment/static/js/3.07a6c19d.chunk.js.map",
+    "index.html": "/scalio_assignment/index.html",
+    "static/css/main.09eaa852.chunk.css.map": "/scalio_assignment/static/css/main.09eaa852.chunk.css.map",
+    "static/js/2.c1a5f4ef.chunk.js.LICENSE.txt": "/scalio_assignment/static/js/2.c1a5f4ef.chunk.js.LICENSE.txt",
+    "static/media/arrow-down-solid.c622c76e.svg": "/scalio_assignment/static/media/arrow-down-solid.c622c76e.svg",
+    "static/media/arrow-up-solid.792c8c47.svg": "/scalio_assignment/static/media/arrow-up-solid.792c8c47.svg",
+    "static/media/chevron-left-solid.310de47d.svg": "/scalio_assignment/static/media/chevron-left-solid.310de47d.svg",
+    "static/media/chevron-right-solid.c3ee4024.svg": "/scalio_assignment/static/media/chevron-right-solid.c3ee4024.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01dedd41.js",
+    "static/js/2.c1a5f4ef.chunk.js",
+    "static/css/main.09eaa852.chunk.css",
+    "static/js/main.96e7bc61.chunk.js"
+  ]
+}
