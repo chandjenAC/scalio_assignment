@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scalio_assignment/static/css/main.09eaa852.chunk.css",
-    "main.js": "/scalio_assignment/static/js/main.96e7bc61.chunk.js",
-    "main.js.map": "/scalio_assignment/static/js/main.96e7bc61.chunk.js.map",
+    "main.js": "/scalio_assignment/static/js/main.933dbb53.chunk.js",
+    "main.js.map": "/scalio_assignment/static/js/main.933dbb53.chunk.js.map",
     "runtime-main.js": "/scalio_assignment/static/js/runtime-main.01dedd41.js",
     "runtime-main.js.map": "/scalio_assignment/static/js/runtime-main.01dedd41.js.map",
     "static/js/2.c1a5f4ef.chunk.js": "/scalio_assignment/static/js/2.c1a5f4ef.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.01dedd41.js",
     "static/js/2.c1a5f4ef.chunk.js",
     "static/css/main.09eaa852.chunk.css",
-    "static/js/main.96e7bc61.chunk.js"
+    "static/js/main.933dbb53.chunk.js"
   ]
 }
