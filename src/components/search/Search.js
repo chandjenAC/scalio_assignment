@@ -19,7 +19,7 @@ const Search = ({
             onChange={handleChangeSearch}
           />
         </div>
-        <div>
+        <div className="submitButtonFlexItem">
           <button
             className="submitButton"
             title="submitButton"

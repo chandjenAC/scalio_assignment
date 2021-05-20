@@ -12,42 +12,46 @@ const Results = ({
   return results.items?.length > 0 ? (
     <div className="responsiveTbl">
       <p className="search-result-title">Search Results:</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Avatar</th>
-            <th>
-              Login{" "}
-              <button className="sortIconButton" onClick={handleClickSortLogin}>
-                {results.sortOrder === "desc" ? (
-                  <ArrowUp className="sortIcon" />
-                ) : (
-                  <ArrowDown className="sortIcon" />
-                )}
-              </button>
-            </th>
-            <th>Type</th>
-          </tr>
-        </thead>
-        <tbody>
-          {results.items.map((item) => {
-            return (
-              <tr key={item.id}>
-                <td>
-                  <img
-                    className="avatarLogo"
-                    src={item.avatar_url}
-                    alt="avatar logo"
-                  />
-                </td>
-                <td>{item.login}</td>
-                <td>{item.type} </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-
+      <div className="scrollContainer">
+        <table className="table">
+          <thead>
+            <tr>
+              <th className="avatar">Avatar</th>
+              <th className="login">
+                Login{" "}
+                <button
+                  className="sortIconButton"
+                  onClick={handleClickSortLogin}
+                >
+                  {results.sortOrder === "desc" ? (
+                    <ArrowUp className="sortIcon" />
+                  ) : (
+                    <ArrowDown className="sortIcon" />
+                  )}
+                </button>
+              </th>
+              <th className="type">Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            {results.items.map((item) => {
+              return (
+                <tr key={item.id}>
+                  <td>
+                    <img
+                      className="avatarLogo"
+                      src={item.avatar_url}
+                      alt="avatar logo"
+                    />
+                  </td>
+                  <td>{item.login}</td>
+                  <td>{item.type} </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
       <Pagination
         page={currentPage}
         handlePageChange={handlePageChange}

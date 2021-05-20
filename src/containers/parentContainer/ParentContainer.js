@@ -13,6 +13,9 @@ const ParentContainer = () => {
 
   const handleError = useErrorHandler();
 
+  const isResultEmpty =
+    Object.keys(results).length === 0 && results.constructor === Object;
+
   const fetchUsersData = async ({ page }) => {
     let url = `https://api.github.com/search/users?q=${searchText} in:login&sort=stars&order=desc&page=${page}&per_page=9`;
     await axios
@@ -42,6 +45,12 @@ const ParentContainer = () => {
     if (disableSubmit) {
       setDisableSubmit(false);
     }
+    if (e.target.value === "") {
+      setDisableSubmit(true);
+      if (!isResultEmpty) {
+        setResults({});
+      }
+    }
     setSearchText(e.target.value);
   };
 
@@ -65,24 +74,26 @@ const ParentContainer = () => {
     }));
   };
 
-  let emptyResult =
-    Object.keys(results).length === 0 && results.constructor === Object;
-
   return (
     <div className="app">
-      <Search
-        searchText={searchText}
-        handleChangeSearch={handleChangeSearch}
-        onSubmitSearch={onSubmitSearch}
-        disableSubmit={disableSubmit}
-      />
-      {!emptyResult && (
-        <Results
-          results={results}
-          currentPage={currentPage}
-          handleClickSortLogin={handleClickSortLogin}
-          handlePageChange={handlePageChange}
+      <div>
+        <Search
+          searchText={searchText}
+          handleChangeSearch={handleChangeSearch}
+          onSubmitSearch={onSubmitSearch}
+          disableSubmit={disableSubmit}
         />
+      </div>
+
+      {!isResultEmpty && (
+        <div>
+          <Results
+            results={results}
+            currentPage={currentPage}
+            handleClickSortLogin={handleClickSortLogin}
+            handlePageChange={handlePageChange}
+          />
+        </div>
       )}
     </div>
   );

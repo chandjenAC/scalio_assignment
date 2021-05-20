@@ -18,12 +18,13 @@
     border-bottom: 1px solid #2574fb;
   }
 }
+.submitButtonFlexItem {
+  margin: 16px 0px;
+}
 
 .submitButton {
-  margin-top: 16px;
   padding: 8px 32px;
   font-size: 16px;
-  margin-left: 8px;
   cursor: pointer;
   color: #fff;
   border: none;
