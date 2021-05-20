@@ -21,7 +21,7 @@ const Search = ({
         </div>
         <div className="submitButtonFlexItem">
           <button
-            className="submitButton"
+            className="primaryButton"
             title="submitButton"
             type="submit"
             disabled={disableSubmit}
