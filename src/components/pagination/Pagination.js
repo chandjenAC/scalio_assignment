@@ -21,8 +21,9 @@ const Pagination = ({ page, rowsPerPage, count, handlePageChange }) => {
         </button>
       </div>
       <div>
-        <p>
-          {from}-{to} of {count}
+        <p className="paginationText">
+          {from}-{to} <span className="paginationTextMiddle">of</span>{" "}
+         <span className="paginationTotalCount">{count}</span>
         </p>
       </div>
       <div>

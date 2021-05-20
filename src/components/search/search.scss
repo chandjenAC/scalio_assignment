@@ -1,10 +1,39 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .searchInput {
-  padding: 8px;
+  min-width: 250px;
+  padding: 8px 4px 4px 4px;
   font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgrey;
+  &:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2574fb;
+  }
 }
 
 .submitButton {
-  padding: 8px 24px;
+  margin-top: 16px;
+  padding: 8px 32px;
   font-size: 16px;
   margin-left: 8px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #2574fb;
+  &:hover {
+    background-color: #0f65fa;
+  }
+  &:disabled {
+    background-color: rgb(180, 180, 180);
+    cursor: not-allowed;
+  }
 }

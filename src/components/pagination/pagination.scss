@@ -1,15 +1,36 @@
 .paginationContainer {
   display: flex;
   align-items: center;
+  float: right;
+  margin-top: 12px;
 }
 
 .paginationButton {
-  border: none;
+  border: 1px solid #eaf5ff;
   padding: 4px 12px;
-  margin: 0px 4px;
+  margin: 0px 8px;
+  cursor: pointer;
+  background-color: #eaf5ff;
+  &:disabled {
+    background-color: #f5f8fb;
+    cursor: not-allowed;
+  }
 }
 
 .paginationIcon {
-  width: 12px;
+  width: 10px;
+  color: dimgray;
   vertical-align: middle;
+}
+
+.paginationText {
+  font-size: 12px;
+}
+
+.paginationTextMiddle {
+  font-size: 10px;
+}
+
+.paginationTotalCount {
+  font-size: 16px;
 }

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useErrorHandler } from "react-error-boundary";
 import Results from "../../components/results/Results";
 import Search from "../../components/search/Search";
-import "./parentContainer.scss"
+import "./parentContainer.scss";
 
 const ParentContainer = () => {
   const [searchText, setSearchText] = useState("");
@@ -60,6 +60,9 @@ const ParentContainer = () => {
     }));
   };
 
+  let emptyResult =
+    Object.keys(results).length === 0 && results.constructor === Object;
+
   return (
     <div className="app">
       <Search
@@ -67,12 +70,14 @@ const ParentContainer = () => {
         handleChangeSearch={handleChangeSearch}
         onSubmitSearch={onSubmitSearch}
       />
-      <Results
-        results={results}
-        currentPage={currentPage}
-        handleClickSortLogin={handleClickSortLogin}
-        handlePageChange={handlePageChange}
-      />
+      {!emptyResult && (
+        <Results
+          results={results}
+          currentPage={currentPage}
+          handleClickSortLogin={handleClickSortLogin}
+          handlePageChange={handlePageChange}
+        />
+      )}
     </div>
   );
 };

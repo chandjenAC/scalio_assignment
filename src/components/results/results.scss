@@ -1,6 +1,8 @@
 .search-result-title {
-  color: #238b43;
-  font-size: larger;
+  color: grey;
+  margin: 24px 0px 6px 6px;
+  text-align: left;
+  font-size: 14px;
 }
 
 .tableContainer {
@@ -15,29 +17,34 @@
 }
 
 .sortIconButton {
-  margin-left: 8px;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
 .sortIcon {
-  width: 15px;
+  width: 12px;
+  color: #2574fb;
+  vertical-align: text-top;
 }
 
 /* responsive table */
 
-.responsiveTbl table {
+.responsiveTbl {
+  margin-top: 16px;
+}
+
+.table {
   text-align: center;
   margin: 30px auto;
-  border-collapse: collapse;
+  border-collapse: collapse !important;
 }
 
 tr {
   color: #1f242d;
   background: #fff;
   &:nth-child(2n) {
-    background: darken(#fff, 5%);
+    background: darken(#fff, 3%);
   }
 }
 
@@ -52,10 +59,10 @@ td {
 }
 
 th {
-  background: #e8e9ea;
+  background: #eaf5ff;
   color: #555555;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 12px 24px;
 }
 
