@@ -1,6 +1,11 @@
 import "./search.scss";
 
-const Search = ({ onSubmitSearch, searchText, handleChangeSearch }) => {
+const Search = ({
+  onSubmitSearch,
+  searchText,
+  handleChangeSearch,
+  disableSubmit,
+}) => {
   return (
     <form onSubmit={onSubmitSearch}>
       <div className="searchContainer">
@@ -19,7 +24,7 @@ const Search = ({ onSubmitSearch, searchText, handleChangeSearch }) => {
             className="submitButton"
             title="submitButton"
             type="submit"
-            disabled={!searchText}
+            disabled={disableSubmit}
           >
             Submit
           </button>

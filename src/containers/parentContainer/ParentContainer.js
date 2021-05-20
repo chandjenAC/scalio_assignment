@@ -9,6 +9,7 @@ const ParentContainer = () => {
   const [searchText, setSearchText] = useState("");
   const [results, setResults] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
+  const [disableSubmit, setDisableSubmit] = useState(true);
 
   const handleError = useErrorHandler();
 
@@ -33,10 +34,14 @@ const ParentContainer = () => {
     if (currentPage !== 1) {
       setCurrentPage(1);
     }
+    setDisableSubmit(true);
     fetchUsersData({ page: 1 });
   };
 
   const handleChangeSearch = (e) => {
+    if (disableSubmit) {
+      setDisableSubmit(false);
+    }
     setSearchText(e.target.value);
   };
 
@@ -69,6 +74,7 @@ const ParentContainer = () => {
         searchText={searchText}
         handleChangeSearch={handleChangeSearch}
         onSubmitSearch={onSubmitSearch}
+        disableSubmit={disableSubmit}
       />
       {!emptyResult && (
         <Results
