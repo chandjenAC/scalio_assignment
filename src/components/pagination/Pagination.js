@@ -1,6 +1,6 @@
 import { ReactComponent as PrevIcon } from "../../assets/icons/chevron-left-solid.svg";
 import { ReactComponent as NextIcon } from "../../assets/icons/chevron-right-solid.svg";
-import "./pagination.css";
+import "./pagination.scss";
 
 const Pagination = ({ page, rowsPerPage, count, handlePageChange }) => {
   let from = rowsPerPage * page - rowsPerPage + 1;

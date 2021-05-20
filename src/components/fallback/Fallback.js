@@ -1,4 +1,4 @@
-import "./fallback.css";
+import "./fallback.scss";
 
 const Fallback = ({ error, resetErrorBoundary }) => {
   console.log("thjis isteh error>>>>>", error);

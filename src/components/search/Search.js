@@ -1,3 +1,4 @@
+import "./search.scss"
 
 const Search = ({ onSubmitSearch, searchText, handleChangeSearch }) => {
 

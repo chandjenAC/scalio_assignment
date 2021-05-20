@@ -1,8 +1,9 @@
 import axios from "axios";
 import { useState } from "react";
 import { useErrorHandler } from "react-error-boundary";
-import Results from "../components/results/Results";
-import Search from "../components/search/Search";
+import Results from "../../components/results/Results";
+import Search from "../../components/search/Search";
+import "./parentContainer.scss"
 
 const ParentContainer = () => {
   const [searchText, setSearchText] = useState("");
@@ -60,7 +61,7 @@ const ParentContainer = () => {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <Search
         searchText={searchText}
         handleChangeSearch={handleChangeSearch}

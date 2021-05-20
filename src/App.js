@@ -1,6 +1,6 @@
 import { ErrorBoundary } from "react-error-boundary";
 import Fallback from "./components/fallback/Fallback";
-import ParentContainer from "./containers/ParentContainer";
+import ParentContainer from "./containers/parentContainer/ParentContainer";
 
 const App = () => {
   const errorHandler = (error, errorInfo) => {
@@ -12,7 +12,7 @@ const App = () => {
       FallbackComponent={Fallback}
       onError={errorHandler}
       onReset={() => {
-        window.location.href = "/";
+        window.location.href = "/scalio_assignment";
       }}
     >
       <ParentContainer />

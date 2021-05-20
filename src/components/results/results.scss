@@ -18,7 +18,7 @@
   margin-left: 8px;
   border: none;
   background-color: transparent;
-  cursor:pointer
+  cursor: pointer;
 }
 
 .sortIcon {
@@ -30,6 +30,7 @@
 .responsiveTbl table {
   text-align: center;
   margin: 30px auto;
+  border-collapse: collapse;
 }
 
 tr {
@@ -42,7 +43,8 @@ tr {
 
 th,
 td {
-  padding: 8px 24px;
+  padding: 6px 24px;
+  font-size: 14px;
   vertical-align: middle;
   &:nth-child(2) {
     text-align: left;
@@ -51,12 +53,13 @@ td {
 
 th {
   background: #e8e9ea;
-  color: #1f242d;
+  color: #555555;
+  font-size: 16px;
   font-weight: 500;
-  padding: 8px 24px;
+  padding: 12px 24px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 756px) {
   .container {
     padding: 0 6px;
     margin: 12px auto;
@@ -76,11 +79,11 @@ th {
   td {
     display: block;
     text-align: left;
-    padding: 10px 20px 10px 160px;
+    padding: 10px 20px 10px 100px;
     position: relative;
 
     &:before {
-      content: "Invoice ID";
+      content: "Avatar";
       font-weight: 500;
       position: absolute;
       top: 50%;
@@ -90,40 +93,13 @@ th {
 
     &:nth-of-type(2) {
       &:before {
-        content: "Reference";
+        content: "Login";
       }
     }
 
     &:nth-of-type(3) {
       &:before {
-        content: "Maturity Date";
-      }
-    }
-
-    &:nth-of-type(4) {
-      &:before {
-        content: "Invoice Amount";
-      }
-    }
-
-    &:nth-of-type(5) {
-      &:before {
-        content: "CCY";
-      }
-    }
-    &:nth-of-type(6) {
-      &:before {
-        content: "Buyer";
-      }
-    }
-    &:nth-of-type(7) {
-      &:before {
-        content: "Supplier";
-      }
-    }
-    &:nth-of-type(8) {
-      &:before {
-        content: "Invoice Date";
+        content: "Type";
       }
     }
   }

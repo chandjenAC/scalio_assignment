@@ -1,4 +1,4 @@
-import "./results.css";
+import "./results.scss";
 import { ReactComponent as ArrowUp } from "../../assets/icons/arrow-up-solid.svg";
 import { ReactComponent as ArrowDown } from "../../assets/icons/arrow-down-solid.svg";
 import Pagination from "../pagination/Pagination";
@@ -11,7 +11,7 @@ const Results = ({
 }) => {
   return results.items?.length > 0 ? (
     <div className="tableContainer">
-      <p className="search-result-title">Search Results</p>
+      <p className="search-result-title">Results</p>
       <div className="responsiveTbl">
         <table>
           <thead>
