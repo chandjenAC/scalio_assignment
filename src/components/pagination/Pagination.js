@@ -22,7 +22,7 @@ const Pagination = ({ page, rowsPerPage, count, handlePageChange }) => {
         </button>
       </div>
       <div>
-        <p className="paginationText">
+        <p data-testid="paginationText" className="paginationText">
           {from}-{to} <span className="paginationTextMiddle">of</span>{" "}
           <span className="paginationTotalCount">{count}</span>
         </p>
