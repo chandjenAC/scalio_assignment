@@ -16,19 +16,23 @@ const Results = ({
       </p>
       <div className="scrollContainer">
         <table className="table">
-          <thead>
+          <thead data-testid="table-header">
             <tr>
               <th className="avatar">Avatar</th>
               <th className="login">
                 Login{" "}
                 <button
+                  data-testid="sort-btn"
                   className="sortIconButton"
                   onClick={handleClickSortLogin}
                 >
                   {results.sortOrder === "desc" ? (
-                    <ArrowUp className="sortIcon" />
+                    <ArrowUp data-testid="sort-up-arrow" className="sortIcon" />
                   ) : (
-                    <ArrowDown className="sortIcon" />
+                    <ArrowDown
+                      data-testid="sort-down-arrow"
+                      className="sortIcon"
+                    />
                   )}
                 </button>
               </th>
@@ -41,6 +45,7 @@ const Results = ({
                 <tr key={item.id}>
                   <td>
                     <img
+                      data-testid="avatar-img"
                       className="avatarLogo"
                       src={item.avatar_url}
                       alt="avatar logo"
@@ -62,7 +67,9 @@ const Results = ({
       />
     </div>
   ) : (
-    <div style={{ marginTop: "20px" }} data-testid="no-results-text">No results found</div>
+    <div style={{ marginTop: "20px" }} data-testid="no-results-text">
+      No results found
+    </div>
   );
 };
 

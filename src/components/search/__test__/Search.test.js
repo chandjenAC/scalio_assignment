@@ -17,7 +17,7 @@ beforeEach(() => {
 afterEach(cleanup);
 
 describe("Search Component", () => {
-  test("renders correctly without props", () => {});
+  test("renders without crashing", () => {});
   
   test("renders input", () => {
     expect(inputEl).toBeTruthy();
@@ -51,9 +51,3 @@ describe("Search Component", () => {
     expect(inputEl.value).toBe("Some random text input");
   });
 });
-
-//test for functions
-//import functions.
-// test("multiply", () => {
-//   expect(multiply(1, 5)).toBe(5);
-// });

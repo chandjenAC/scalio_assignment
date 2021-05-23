@@ -2,7 +2,7 @@ import Pagination from "../Pagination";
 import { fireEvent, render } from "@testing-library/react";
 
 describe("Pagination Component", () => {
-  test("renders correctly without props", () => {
+  test("renders without crashing", () => {
     render(<Pagination />);
   });
 

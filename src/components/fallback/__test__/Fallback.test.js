@@ -20,7 +20,7 @@ afterEach(() => {
   cleanup();
 });
 
-test("renders correctly without props", () => {});
+test("renders without crashing", () => {});
 
 test("header renders with correct text", () => {
   expect(headerEl.textContent).toBe("Something went wrong!");
