@@ -13,6 +13,7 @@ const Pagination = ({ page, rowsPerPage, count, handlePageChange }) => {
     <div className="paginationContainer">
       <div>
         <button
+          data-testid="prev-btn"
           className="paginationButton"
           disabled={page === 1}
           onClick={() => handlePageChange(page - 1)}
@@ -23,11 +24,12 @@ const Pagination = ({ page, rowsPerPage, count, handlePageChange }) => {
       <div>
         <p className="paginationText">
           {from}-{to} <span className="paginationTextMiddle">of</span>{" "}
-         <span className="paginationTotalCount">{count}</span>
+          <span className="paginationTotalCount">{count}</span>
         </p>
       </div>
       <div>
         <button
+          data-testid="next-btn"
           className="paginationButton"
           disabled={to >= count}
           onClick={() => handlePageChange(page + 1)}

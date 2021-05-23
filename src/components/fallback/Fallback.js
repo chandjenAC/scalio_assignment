@@ -3,9 +3,15 @@ import "./fallback.scss";
 const Fallback = ({ error, resetErrorBoundary }) => {
   return (
     <div className="container">
-      <h1>Something went wrong!</h1>
-      <pre>{error.message}</pre>
-      <button onClick={resetErrorBoundary} className="primaryButton">Go back Home</button>
+      <h1 data-testid="header">Something went wrong!</h1>
+      <pre data-testid="error-msg">{error?.message}</pre>
+      <button
+        data-testid="reset-btn"
+        className="primaryButton"
+        onClick={resetErrorBoundary}
+      >
+        Go back Home
+      </button>
     </div>
   );
 };

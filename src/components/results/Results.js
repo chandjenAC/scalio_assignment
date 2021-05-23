@@ -9,9 +9,11 @@ const Results = ({
   handlePageChange,
   handleClickSortLogin,
 }) => {
-  return results.items?.length > 0 ? (
+  return results?.items?.length > 0 ? (
     <div className="responsiveTbl">
-      <p className="search-result-title">Search Results:</p>
+      <p data-testid="search-title" className="search-result-title">
+        Search Results:
+      </p>
       <div className="scrollContainer">
         <table className="table">
           <thead>
@@ -60,7 +62,7 @@ const Results = ({
       />
     </div>
   ) : (
-    <div style={{ marginTop: "20px" }}>No results found</div>
+    <div style={{ marginTop: "20px" }} data-testid="no-results-text">No results found</div>
   );
 };
 

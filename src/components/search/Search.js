@@ -20,7 +20,7 @@ const Search = ({
           <input
             className="searchInput"
             type="text"
-            title="searchInput"
+            data-testid="searchInput"
             placeholder="Search github users"
             ref={inputRef}
             value={searchText}
@@ -30,7 +30,7 @@ const Search = ({
         <div className="submitButtonFlexItem">
           <button
             className="primaryButton"
-            title="submitButton"
+            data-testid="submit-btn"
             type="submit"
             disabled={disableSubmit}
           >
