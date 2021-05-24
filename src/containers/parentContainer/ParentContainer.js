@@ -25,10 +25,6 @@ const ParentContainer = () => {
           a.login.toLowerCase() > b.login.toLowerCase() ? 1 : -1
         );
         res.data.sortOrder = "desc";
-        console.log(
-          "this is the response>>>>",
-          JSON.stringify(res?.data, null, 2)
-        );
         setResults(res?.data);
       })
       .catch((e) => {
