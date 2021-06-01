@@ -1,0 +1,266 @@
+[{
+    "key": "DATA_GENERATOR",
+    "value": "Data Generator"
+  },
+  {
+    "key": "INVOICE",
+    "value": "Invoice"
+  },
+  {
+    "key": "TOKI",
+    "value": "Toki"
+  },
+  {
+    "key": "ONBOARD_AVATAR",
+    "value": "Onboard Avatar"
+  },
+  {
+    "key": "CREATE_TOKI",
+    "value": "Create Toki"
+  },
+  {
+    "key": "GENERATE_ASSETS",
+    "value": "Generate Assets"
+  },
+  {
+    "key": "ENTER_DETAILS_TO_START_ONBOARDING",
+    "value": "Enter details to start onboarding"
+  },
+  {
+    "key": "CUSTOMER",
+    "value": "Customer"
+  },
+  {
+    "key": "REGISTRATION",
+    "value": "Registration"
+  },
+  {
+    "key": "MORE_INFO",
+    "value": "More Info"
+  },
+  {
+    "key": "NAME",
+    "value": "Name"
+  },
+  {
+    "key": "EMAIL",
+    "value": "Email"
+  },
+  {
+    "key": "PHONE",
+    "value": "Phone"
+  },
+  {
+    "key": "STREET_NAME",
+    "value": "Street Name"
+  },
+  {
+    "key": "TOWN_NAME",
+    "value": "Town Name"
+  },
+  {
+    "key": "STATE",
+    "value": "State"
+  },
+  {
+    "key": "POSTAL_CODE",
+    "value": "Postal Code"
+  },
+  {
+    "key": "COUNTRY_CODE",
+    "value": "Country Code"
+  },
+  {
+    "key": "REGISTRATION_NUMBER",
+    "value": "Registration Number"
+  },
+  {
+    "key": "INDUSTRY_TYPE",
+    "value": "Industry Type"
+  },
+  {
+    "key": "SUB_TYPE",
+    "value": "Sub Type"
+  },
+  {
+    "key": "BASE_CCY",
+    "value": "Base CCY"
+  },
+  {
+    "key": "TIME_ZONE",
+    "value": "Time Zone"
+  },
+  {
+    "key": "REQUIRED!",
+    "value": "Required!"
+  },
+  {
+    "key": "CURRENCY",
+    "value": "Currency"
+  },
+  {
+    "key": "NETWORK_INFO",
+    "value": "Network Info"
+  },
+  {
+    "key": "OWNER",
+    "value": "Owner"
+  },
+  {
+    "key": "STARFLEET",
+    "value": "Starfleet"
+  },
+  {
+    "key": "NETWORK_ID",
+    "value": "Network ID"
+  },
+  {
+    "key": "PARTY_INFO",
+    "value": "Party Info"
+  },
+  {
+    "key": "BUYER",
+    "value": "Buyer"
+  },
+  {
+    "key": "SUPPLIER",
+    "value": "Supplier"
+  },
+  {
+    "key": "TOKI_INFO",
+    "value": "Toki Info"
+  },
+  {
+    "key": "TOKI_TYPE",
+    "value": "Toki Type"
+  },
+  {
+    "key": "TOKI_SUB_TYPE",
+    "value": "Toki Sub Type"
+  },
+  {
+    "key": "GENERATE",
+    "value": "Generate"
+  },
+  {
+    "key": "MUST_BE_GREATER_THAN_0!",
+    "value": "Must be greater than 0!"
+  },
+  {
+    "key": "BUYER_ID",
+    "value": "Buyer ID"
+  },
+  {
+    "key": "SENDER_ID",
+    "value": "Sender ID"
+  },
+  {
+    "key": "FORMAT_INFO",
+    "value": "Format Info"
+  },
+  {
+    "key": "REFERENCE_PREFIX",
+    "value": "Reference Prefix"
+  },
+  {
+    "key": "FORMAT_NAME",
+    "value": "Format Name"
+  },
+  {
+    "key": "NO._OF_INVOICES_TO_BE_GENERATED",
+    "value": "No. of Invoices to be generated"
+  },
+  {
+    "key": "CREATE",
+    "value": "Create"
+  },
+  {
+    "key": "ASSET_SELECTION_CRITERIA",
+    "value": "Asset Selection Criteria"
+  },
+  {
+    "key": "BY_MAT._DATE_RANGE",
+    "value": "By Mat. Date Range"
+  },
+  {
+    "key": "BY_AMOUNT",
+    "value": "By Amount"
+  },
+  {
+    "key": "SELECT_ALL",
+    "value": "Select All"
+  },
+  {
+    "key": "FROM",
+    "value": "From"
+  },
+  {
+    "key": "TO",
+    "value": "To"
+  },
+  {
+    "key": "FUNDER",
+    "value": "Funder"
+  },
+  {
+    "key": "COUNTRY",
+    "value": "Country"
+  },
+  {
+    "key": "MATURITY_DATE_RANGE",
+    "value": "Maturity Date Range"
+  },
+  {
+    "key": "TOTAL_ASSET_AMOUNT",
+    "value": "Total Asset Amount"
+  },
+  {
+    "key": "ADD",
+    "value": "Add"
+  },
+  {
+    "key": "CANCEL",
+    "value": "Cancel"
+  },
+  {
+    "key": "OK",
+    "value": "Ok"
+  },
+  {
+    "key": "USERS",
+    "value": "Users"
+  },
+  {
+    "key": "ADD_USERS",
+    "value": "Add Users"
+  },
+  {
+    "key": "FULL_NAME",
+    "value": "Full Name"
+  },
+  {
+    "key": "EMAIL_ID",
+    "value": "Email ID"
+  },
+  {
+    "key": "ADD_MORE",
+    "value": "Add More"
+  },
+  {
+    "key": "INVALID_EMAIL",
+    "value": "Invalid Email"
+  },
+  {
+    "key": "INVALID_EMAIL_ID_ENTERED_FOR_ONE_OF_THE_USER.",
+    "value": "Invalid email id entered for one of the user."
+  },
+  {
+    "key": "ASSETS",
+    "value": "Assets"
+  },
+  {
+    "key": "MUST_BE_LESS_THAN_UPPER_RANGE",
+    "value": "Must be less than upper range"
+  }
+
+]

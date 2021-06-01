@@ -1,0 +1,53 @@
+[
+  { "key": "CLOSE_APP", "value": "Close App" },
+  { "key": "GO_BACK", "value": "Go Back" },
+  { "key": "CANCEL", "value": "Cancel" },
+  { "key": "ID", "value": "ID" },
+  { "key": "PROCESS_NAME", "value": "Process Name" },
+  { "key": "CATEGORY", "value": "Category" },
+  { "key": "STARBASE_ID", "value": "Starbase ID" },
+  { "key": "STARFLEET_ID", "value": "Starfleet ID" },
+  { "key": "UPDATED_ON", "value": "Updated On" },
+  { "key": "UPDATED_BY", "value": "Updated By" },
+  { "key": "STEP_NAME", "value": "Step Name" },
+  { "key": "TYPE", "value": "Type" },
+  { "key": "FUNCTION_HANDLER", "value": "Function Handler" },
+  { "key": "FN._HANDLER", "value": "Fn. Handler" },
+  { "key": "FROM_STEP", "value": "From Step" },
+  { "key": "CONDITION_HANDLER", "value": "Condition Handler" },
+  { "key": "TO_STEP", "value": "To Step" },
+  { "key": "PROCESS_DETAILS", "value": "Process Details" },
+  { "key": "PROCESS_FLOWS", "value": "Process Flows" },
+  { "key": "VIEW_PROCESS_FLOWS", "value": "View process flows" },
+  { "key": "NONE", "value": "None" },
+  { "key": "UPDATE", "value": "Update" },
+  { "key": "EDIT_STEPS", "value": "Edit Steps" },
+  { "key": "INFO:", "value": "Info: " },
+  { "key": "NOTE:", "value": "Note: " },
+  {
+    "key": "DRAG_AND_DROP_INFO",
+    "value": "Drag and drop to reorder steps."
+  },
+  { "key": "STEPS_CAN'T_BE_EDITED!", "value": "Steps can't be edited!" },
+  { "key": "PROCESS_INSTANCES", "value": "Process Instances" },
+  {
+    "key": "PROCESS_INSTANCE_FLOW_STATES",
+    "value": "Process Instance Flow States"
+  },
+  {
+    "key": "VIEW_PROCESS_INSTANCE_FLOW",
+    "value": "View Process Instance Flow"
+  },
+  { "key": "CREATED_ON", "value": "Created On" },
+  { "key": "STATUS", "value": "Status" },
+  { "key": "CONTEXT", "value": "Context" },
+  { "key": "PROCESS_INSTANCE_STEP", "value": "Process Instance Step" },
+  { "key": "VIEW", "value": "View" },
+  { "key": "CONTEXT_INFO", "value": "Context Info" },
+  { "key": "OK", "value": "Ok" },
+  { "key": "NOT_AVAILABLE!", "value": "Not available!" },
+  { "key": "VIEW_CONTEXT", "value": "View context" },
+  { "key": "VIEW_PROCESS_INSTANCES", "value": "View process instances" },
+  { "key": "RECOVER", "value": "Recover" },
+  { "key": "REFRESH_DATA", "value": "Refresh data" }
+]

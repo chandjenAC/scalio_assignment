@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Issuance",
+    "value": "Issuance"
+  },
+  {
+    "label": "Discount",
+    "value": "Discount"
+  },
+  {
+    "label": "Maturity-FGF",
+    "value": "Maturity-FGF"
+  },
+  {
+    "label": "Maturity-UDD",
+    "value": "Maturity-UDD"
+  },
+  {
+    "label": "Non-Discounted",
+    "value": "Non-Discounted"
+  }
+]

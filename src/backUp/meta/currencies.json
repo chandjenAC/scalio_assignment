@@ -1,0 +1,238 @@
+[
+  {
+    "label": "AED",
+    "value": "AED"
+  },
+  {
+    "label": "AOA",
+    "value": "AOA"
+  },
+  {
+    "label": "ARS",
+    "value": "ARS"
+  },
+  {
+    "label": "AUD",
+    "value": "AUD"
+  },
+  {
+    "label": "BDT",
+    "value": "BDT"
+  },
+  {
+    "label": "BHD",
+    "value": "BHD"
+  },
+  {
+    "label": "BRL",
+    "value": "BRL"
+  },
+  {
+    "label": "BTN",
+    "value": "BTN"
+  },
+  {
+    "label": "BWP",
+    "value": "BWP"
+  },
+  {
+    "label": "CAD",
+    "value": "CAD"
+  },
+  {
+    "label": "CNY",
+    "value": "CNY"
+  },
+  {
+    "label": "CRC",
+    "value": "CRC"
+  },
+  {
+    "label": "CZK",
+    "value": "CZK"
+  },
+  {
+    "label": "DKK",
+    "value": "DKK"
+  },
+  {
+    "label": "DZD",
+    "value": "DZD"
+  },
+  {
+    "label": "EGP",
+    "value": "EGP"
+  },
+  {
+    "label": "ETB",
+    "value": "ETB"
+  },
+  {
+    "label": "EUR",
+    "value": "EUR"
+  },
+  {
+    "label": "GBP",
+    "value": "GBP"
+  },
+  {
+    "label": "HKD",
+    "value": "HKD"
+  },
+  {
+    "label": "HUF",
+    "value": "HUF"
+  },
+  {
+    "label": "IDR",
+    "value": "IDR"
+  },
+  {
+    "label": "ILS",
+    "value": "ILS"
+  },
+  {
+    "label": "INR",
+    "value": "INR"
+  },
+  {
+    "label": "IQD",
+    "value": "IQD"
+  },
+  {
+    "label": "IRR",
+    "value": "IRR"
+  },
+  {
+    "label": "ISK",
+    "value": "ISK"
+  },
+  {
+    "label": "JPY",
+    "value": "JPY"
+  },
+  {
+    "label": "KES",
+    "value": "KES"
+  },
+  {
+    "label": "KPW",
+    "value": "KPW"
+  },
+  {
+    "label": "KRW",
+    "value": "KRW"
+  },
+  {
+    "label": "KWD",
+    "value": "KWD"
+  },
+  {
+    "label": "LBP",
+    "value": "LBP"
+  },
+  {
+    "label": "LKR",
+    "value": "LKR"
+  },
+  {
+    "label": "LYD",
+    "value": "LYD"
+  },
+  {
+    "label": "MVR",
+    "value": "MVR"
+  },
+  {
+    "label": "MXN",
+    "value": "MXN"
+  },
+  {
+    "label": "MYR",
+    "value": "MYR"
+  },
+  {
+    "label": "NAD",
+    "value": "NAD"
+  },
+  {
+    "label": "NGN",
+    "value": "NGN"
+  },
+  {
+    "label": "NPR",
+    "value": "NPR"
+  },
+  {
+    "label": "NZD",
+    "value": "NZD"
+  },
+  {
+    "label": "OMR",
+    "value": "OMR"
+  },
+  {
+    "label": "PKR",
+    "value": "PKR"
+  },
+  {
+    "label": "QAR",
+    "value": "QAR"
+  },
+  {
+    "label": "RON",
+    "value": "RON"
+  },
+  {
+    "label": "RUB",
+    "value": "RUB"
+  },
+  {
+    "label": "SAR",
+    "value": "SAR"
+  },
+  {
+    "label": "SGD",
+    "value": "SGD"
+  },
+  {
+    "label": "THB",
+    "value": "THB"
+  },
+  {
+    "label": "TZS",
+    "value": "TZS"
+  },
+  {
+    "label": "UAH",
+    "value": "UAH"
+  },
+  {
+    "label": "UGX",
+    "value": "UGX"
+  },
+  {
+    "label": "USD",
+    "value": "USD"
+  },
+  {
+    "label": "UYU",
+    "value": "UYU"
+  },
+  {
+    "label": "YER",
+    "value": "YER"
+  },
+  {
+    "label": "ZAR",
+    "value": "ZAR"
+  },
+  {
+    "label": "ZMW",
+    "value": "ZMW"
+  },
+  {
+    "label": "ZWL",
+    "value": "ZWL"
+  }
+]

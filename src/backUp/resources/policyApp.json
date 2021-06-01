@@ -1,0 +1,14 @@
+[
+  { "key": "CLOSE_APP", "value": "Close App" },
+  { "key": "GRAPH_PATH", "value": "Graph Path" },
+  { "key": "RELOAD", "value": "Reload" },
+  { "key": "ADD_POLICY", "value": "Add Policy" },
+  { "key": "ADD_CRITERIA", "value": "Add Criteria" },
+  { "key": "DELETE_POLICY", "value": "Delete Policy" },
+  { "key": "DELETE_CRITERIA", "value": "Delete Criteria" },
+  { "key": "SELECT_POLICY", "value": "Select Policy" },
+  { "key": "SELECT_CRITERIA", "value": "Select Criteria" },
+  { "key": "BACK", "value": "Back" },
+  { "key": "DELETE", "value": "Delete" },
+  { "key": "POLICY", "value": "Policy" }
+]

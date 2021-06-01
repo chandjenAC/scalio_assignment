@@ -1,0 +1,13 @@
+[
+  { "key": "ID", "value": "ID" },
+  { "key": "NAME", "value": "Name" },
+  { "key": "FAAS", "value": "FaaS" },
+  { "key": "TYPE", "value": "Type" },
+  { "key": "MODULE", "value": "Module" },
+  { "key": "DESCRIPTION", "value": "Description" },
+  { "key": "REGISTRY", "value": "Registry" },
+  { "key": "REFRESH_DATA", "value": "Refresh Data" },
+  { "key": "ASYNC", "value": "ASYNC" },
+  { "key": "SYNC", "value": "SYNC" },
+  { "key": "SUCCESSFULLY_VERIFIED_CIN", "value": "Successfully" }
+]

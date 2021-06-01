@@ -1,0 +1,607 @@
+{
+  "status": {
+    "success": true,
+    "message": "Get Dashboard Data Complete."
+  },
+  "data": {
+    "totalEpAmount": {
+      "name": "Total EP Amount",
+      "value": 1346000,
+      "unit": "USD"
+    },
+    "totalRevenue": {
+      "name": "Total Revenue",
+      "value": 4122.241666666667,
+      "unit": "USD"
+    },
+    "avgWeightedAprRate": {
+      "name": "Avg Weighted APR Rate",
+      "value": 5.27,
+      "unit": "%"
+    },
+    "totalVolumeAndTotalRevenueChart": {
+      "xAxis": ["Sep", "Oct"],
+      "yAxis": [
+        {
+          "totalVolume": 330000,
+          "totalRevenue": 419.6333333333333
+        },
+        {
+          "totalVolume": 1016000,
+          "totalRevenue": 3702.608333333333
+        }
+      ]
+    },
+    "avgVolumeChart": {
+      "xAxis": ["Sep", "Oct"],
+      "yAxis": [
+        {
+          "avgVolume": 66000
+        },
+        {
+          "avgVolume": 42333.333333333336
+        }
+      ]
+    },
+    "avgRevenueChart": {
+      "xAxis": ["Sep", "Oct"],
+      "yAxis": [
+        {
+          "avgRevenue": 83.92666666666666
+        },
+        {
+          "avgRevenue": 154.27534722222222
+        }
+      ]
+    },
+    "avgUtilized": {
+      "name": "Avg Utilized",
+      "value": 46413.793103448275,
+      "unit": "USD"
+    },
+    "avgAvailable": {
+      "name": "Avg Available",
+      "value": 99953586.20689656,
+      "unit": "USD"
+    },
+    "dailyLimitChart": {
+      "xAxis": ["Aug", "Sep", "Oct"],
+      "yAxis": [
+        {
+          "dailyLimit": 100000000
+        },
+        {
+          "dailyLimit": 100000000
+        },
+        {
+          "dailyLimit": 100000000
+        }
+      ]
+    },
+    "dailyAvailableChart": {
+      "xAxis": ["Aug", "Sep", "Oct"],
+      "yAxis": [
+        {
+          "dailyAvailable": 99989040
+        },
+        {
+          "dailyAvailable": 99397228.57142857
+        },
+        {
+          "dailyAvailable": 99977666.1764706
+        }
+      ]
+    },
+    "avgUtilizedChart": {
+      "xAxis": ["Aug", "Sep", "Oct"],
+      "yAxis": [
+        {
+          "avgUtilized": 10960
+        },
+        {
+          "avgUtilized": 602771.4285714285
+        },
+        {
+          "avgUtilized": 22333.823529411766
+        }
+      ]
+    },
+    "rejectedAmount": {
+      "name": "Rejected Amount",
+      "value": 10012300,
+      "unit": "USD"
+    },
+    "weightedApr": {
+      "name": "Avg Rejected APR Rate",
+      "value": 3,
+      "unit": "%"
+    },
+    "limitRejected": {
+      "name": "Limit Rejected %",
+      "value": 4.84,
+      "unit": "%"
+    },
+    "yieldRejected": {
+      "name": "Yield Rejected %",
+      "value": 2.94,
+      "unit": "%"
+    },
+    "rejectedAmountChart": {
+      "xAxis": ["Aug", "Sep", "Oct"],
+      "yAxis": [
+        {
+          "rejectedAmount": 10960
+        },
+        {
+          "rejectedAmount": 602771.4285714285
+        },
+        {
+          "rejectedAmount": 22333.823529411766
+        }
+      ]
+    },
+    "rejectedByTypeChart": {
+      "xAxis": ["Aug", "Sep", "Oct"],
+      "yAxis": [
+        {
+          "yieldRejected": 2550,
+          "limitRejected": 16000
+        },
+        {
+          "yieldRejected": 44125,
+          "limitRejected": 66000
+        },
+        {
+          "yieldRejected": 32486.486486486487,
+          "limitRejected": 72769.23076923077
+        }
+      ]
+    },
+    "lowOfferRate": {
+      "name": "Low Offer Rate",
+      "value": 0.8,
+      "unit": "%"
+    },
+    "highOfferRate": {
+      "name": "High Offer Rate",
+      "value": 9,
+      "unit": "%"
+    },
+    "avgApr": {
+      "name": "Avg APR",
+      "value": 5.27,
+      "unit": "%"
+    },
+    "highLowOfferChart": {
+      "xAxis": ["Sep", "Oct"],
+      "yAxis": [
+        {
+          "value": [9, 3.1]
+        },
+        {
+          "value": [8, 0.8]
+        }
+      ]
+    },
+    "yogiObservations": [
+      {
+        "id": "39ac2f1d-bff6-4003-a56f-f2bc89022bfe",
+        "displayName": "Observation 01",
+        "displayInfo": {
+          "primaryText": "Increase daily funding amount to capitalize on revenues"
+        }
+      },
+      {
+        "id": "4b503fd6-da34-4af9-b9d8-e7d41a327581",
+        "displayName": "Observation 02",
+        "displayInfo": {
+          "primaryText": "Observation text here."
+        }
+      }
+    ],
+    "yogiRecommendations": [
+      {
+        "id": "2757c482-10f1-4a24-b9d7-1818058d1cb5",
+        "displayName": "Recommendation 01",
+        "displayInfo": {
+          "primaryText": "20% of rejections are due to max funding amount, increase daily funding amount to capitalize on revenues"
+        }
+      },
+      {
+        "id": "2c51db44-ff56-47af-b32e-009f0e7c974b",
+        "displayName": "Recommendation 02",
+        "displayInfo": {
+          "primaryText": "Recommendation text here."
+        }
+      },
+      {
+        "id": "1e3bb71a-ca92-4e01-8487-fbb9e7818760",
+        "displayName": "Recommendation 03",
+        "displayInfo": {
+          "primaryText": "Recommendation text here."
+        }
+      },
+      {
+        "id": "902baea7-71c6-47cb-b6d2-360de0ef02d5",
+        "displayName": "Recommendation 04",
+        "displayInfo": {
+          "primaryText": "Recommendation text here."
+        }
+      },
+      {
+        "id": "10db89ba-c05f-4818-9767-300289c4b3a2",
+        "displayName": "Recommendation 05",
+        "displayInfo": {
+          "primaryText": "Recommendation text here."
+        }
+      },
+      {
+        "id": "5bae3b7d-0212-4014-9a18-8ea0346da132",
+        "displayName": "Recommendation 06",
+        "displayInfo": {
+          "primaryText": "Recommendation text here."
+        }
+      }
+    ],
+    "supplierCountryAndTotalEpaWorldMap": [
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "USA",
+          "iso_a3": "USA"
+        },
+        "totalEpa": "25"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "UK",
+          "iso_a3": "GBR"
+        },
+        "totalEpa": "54"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "France",
+          "iso_a3": "FRA"
+        },
+        "totalEpa": "88"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "India",
+          "iso_a3": "IND"
+        },
+        "totalEpa": "58"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Brazil",
+          "iso_a3": "BRA"
+        },
+        "totalEpa": "78"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Saudi Arabia",
+          "iso_a3": "SAU"
+        },
+        "totalEpa": "45"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "China",
+          "iso_a3": "CHN"
+        },
+        "totalEpa": "26"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Russia",
+          "iso_a3": "RUS"
+        },
+        "totalEpa": "71"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "South Africa",
+          "iso_a3": "ZAF"
+        },
+        "totalEpa": "63"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Greenland",
+          "iso_a3": "GRL"
+        },
+        "totalEpa": "83"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "United Arab Emirates",
+          "iso_a3": "ARE"
+        },
+        "totalEpa": "76"
+      }
+    ],
+    "supplierCountryAndTotalRevenueEarnedWorldMap": [
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "USA",
+          "iso_a3": "USA"
+        },
+        "totalRevenueEarned": "54654"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "UK",
+          "iso_a3": "GBR"
+        },
+        "totalRevenueEarned": "87451"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "France",
+          "iso_a3": "FRA"
+        },
+        "totalRevenueEarned": "36987"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "India",
+          "iso_a3": "IND"
+        },
+        "totalRevenueEarned": "45871"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Brazil",
+          "iso_a3": "BRA"
+        },
+        "totalRevenueEarned": "54789"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Saudi Arabia",
+          "iso_a3": "SAU"
+        },
+        "totalRevenueEarned": "76548"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "China",
+          "iso_a3": "CHN"
+        },
+        "totalRevenueEarned": "94571"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Russia",
+          "iso_a3": "RUS"
+        },
+        "totalRevenueEarned": "64587"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "South Africa",
+          "iso_a3": "ZAF"
+        },
+        "totalRevenueEarned": "59426"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Greenland",
+          "iso_a3": "GRL"
+        },
+        "totalRevenueEarned": "79526"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "United Arab Emirates",
+          "iso_a3": "ARE"
+        },
+        "totalRevenueEarned": "49978"
+      }
+    ],
+    "supplierCountryAndAvgWeightedAprWorldMap": [
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "USA",
+          "iso_a3": "USA"
+        },
+        "avgWeightedApr": "25"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "UK",
+          "iso_a3": "GBR"
+        },
+        "avgWeightedApr": "54"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "France",
+          "iso_a3": "FRA"
+        },
+        "avgWeightedApr": "88"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "India",
+          "iso_a3": "IND"
+        },
+        "avgWeightedApr": "58"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Brazil",
+          "iso_a3": "BRA"
+        },
+        "avgWeightedApr": "78"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Saudi Arabia",
+          "iso_a3": "SAU"
+        },
+        "avgWeightedApr": "45"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "China",
+          "iso_a3": "CHN"
+        },
+        "avgWeightedApr": "26"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Russia",
+          "iso_a3": "RUS"
+        },
+        "avgWeightedApr": "71"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "South Africa",
+          "iso_a3": "ZAF"
+        },
+        "avgWeightedApr": "63"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Greenland",
+          "iso_a3": "GRL"
+        },
+        "avgWeightedApr": "83"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "United Arab Emirates",
+          "iso_a3": "ARE"
+        },
+        "avgWeightedApr": "76"
+      }
+    ],
+    "supplierCountryAndRejectedAmountWorldMap": [
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "USA",
+          "iso_a3": "USA"
+        },
+        "rejectedAmount": "54654"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "UK",
+          "iso_a3": "GBR"
+        },
+        "rejectedAmount": "87451"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "France",
+          "iso_a3": "FRA"
+        },
+        "rejectedAmount": "36987"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "India",
+          "iso_a3": "IND"
+        },
+        "rejectedAmount": "45871"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Brazil",
+          "iso_a3": "BRA"
+        },
+        "rejectedAmount": "54789"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Saudi Arabia",
+          "iso_a3": "SAU"
+        },
+        "rejectedAmount": "76548"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "China",
+          "iso_a3": "CHN"
+        },
+        "rejectedAmount": "94571"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Russia",
+          "iso_a3": "RUS"
+        },
+        "rejectedAmount": "64587"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "South Africa",
+          "iso_a3": "ZAF"
+        },
+        "rejectedAmount": "59426"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "Greenland",
+          "iso_a3": "GRL"
+        },
+        "rejectedAmount": "79526"
+      },
+      {
+        "id": "create_UUID()",
+        "country": {
+          "name": "United Arab Emirates",
+          "iso_a3": "ARE"
+        },
+        "rejectedAmount": "49978"
+      }
+    ]
+  }
+}

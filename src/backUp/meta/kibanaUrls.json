@@ -1,0 +1,5 @@
+{
+  "dashboardAppSummary": "/app/kibana#/dashboard/d1ad9100-d72b-11ea-b941-43e2d7ab5afe?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-90d%2Cto%3Anow))",
+  "dashboardAppCanvas": "http://ec2-3-231-213-78.compute-1.amazonaws.com:5601/app/canvas#/workpad/workpad-e08b9bdb-ec14-4339-94c4-063bddfd610e/page/1?__fullscreen=true",
+  "auditAppDashboard": "/app/kibana#/dashboard/738e5b40-dc5d-11ea-ba52-13802c7142e0?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A14400000)%2Ctime%3A(from%3Anow-90d%2Cto%3Anow))"
+}

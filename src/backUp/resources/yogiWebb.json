@@ -1,0 +1,19 @@
+[
+  { "key": "APPLICATIONS", "value": "Applications" },
+  { "key": "TRADEBOT", "value": "Trade-Bot" },
+  { "key": "YOGI_TRAINING", "value": "Yogi Training" },
+  { "key": "TASK_QUEUE", "value": "Task Queue" },
+  { "key": "POLICY", "value": "Policy" },
+  { "key": "AUDIT", "value": "Audit" },
+  { "key": "END_POINTS", "value": "End Points" },
+  { "key": "SEARCH", "value": "Search" },
+  { "key": "PROCESS_BOT", "value": "Process-Bot" },
+  { "key": "DASHBOARD", "value": "Dashboard" },
+  { "key": "INVESTIGATE", "value": "Investigate" },
+  { "key": "FAAS_REGISTRY", "value": "FaaS Registry" },
+  { "key": "TOPIQ", "value": "Topiq" },
+  { "key": "ASSET_VAULT", "value": "Asset Vault" },
+  { "key": "BILLING", "value": "Billing" },
+  { "key": "BANKS", "value": "Banks" },
+  { "key": "DATA_GENERATOR", "value": "Data Generator" }
+]

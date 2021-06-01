@@ -1,0 +1,238 @@
+[
+  { "key": "CLOSE_APP", "value": "Close App" },
+  { "key": "GRAPH_PATH", "value": "Graph Path" },
+  { "key": "RELOAD", "value": "Reload" },
+  { "key": "GO_BACK", "value": "Go Back" },
+  { "key": "DAYT", "value": "DAYT" },
+  { "key": "END-POINTS", "value": "End-Points" },
+  { "key": "REGISTRY", "value": "Registry" },
+  { "key": "NO_OPTIONS", "value": "No options!" },
+  {
+    "key": "YOGI_MANAGED_DIGITAL_ASSETS",
+    "value": "Yogi Managed Digital Assests"
+  },
+  { "key": "NETWORK_ID", "value": "Network ID" },
+  { "key": "SPONSOR_ID", "value": "Sponsor ID" },
+  { "key": "TENANT_ID", "value": "Tenant ID" },
+  { "key": "STARFLEET_ID", "value": "Starfleet ID" },
+  { "key": "ANCHOR_ID", "value": "Anchor ID" },
+  { "key": "AVATAR_ID", "value": "Avatar ID" },
+  { "key": "CATEGORY", "value": "Category" },
+  { "key": "NAME", "value": "Name" },
+  { "key": "ENDPOINT_TYPE", "value": "End-point Type" },
+  { "key": "SUBTYPE", "value": "Sub-type" },
+  { "key": "FOLDER", "value": "Folder" },
+  { "key": "CONTEXT", "value": "Context" },
+  { "key": "DOCUMENT_DEFINITION", "value": "Document Def." },
+  { "key": "DOCUMENT_DEFINITIONS", "value": "Document Definitions" },
+  { "key": "NO_DOCUMENT_DEFINITIONS!", "value": "No Document Definitions!" },
+  { "key": "DOC_SEGMENTS_AND_FIELDS", "value": "Doc. Segments & Fields" },
+  { "key": "DOC_SEGMENTS", "value": "Doc. Segments" },
+  { "key": "DOCUMENT_PARTS", "value": "Document Parts" },
+  { "key": "DOCUMENT_FIELDS", "value": "Document Fields" },
+  { "key": "DOC_FIELDS", "value": "Doc. Fields" },
+  {
+    "key": "SELECT_DOC_SEGMENT_TO_GET_RESPECTIVE_DOC_FIELDS",
+    "value": "Select Doc. Segment to get respective Doc. Fields"
+  },
+  { "key": "DOCUMENT_TYPE", "value": "Document Type" },
+  { "key": "FORMAT", "value": "Format" },
+  { "key": "STORAGE_NAME", "value": "Storage Name" },
+  { "key": "FORMAT_SUMMARY", "value": "Format Summary" },
+  { "key": "SELECTED_SEGMENT_DETAILS", "value": "Selected Segment Details" },
+  { "key": "SELECTED_FIELD_DETAILS", "value": "Selected Field Details" },
+  {
+    "key": "NO_DOCUMENT_SEGMENTS_AND_FIELDS",
+    "value": "No Documents Segments and Fields!"
+  },
+  { "key": "ID", "value": "ID" },
+  { "key": "PART_NAME", "value": "Part Name" },
+  { "key": "LABEL", "value": "Label" },
+  { "key": "DOCUMENT_NAME", "value": "Document Name" },
+  { "key": "PARSER_FUNCTION", "value": "Parser Function" },
+  { "key": "REPEATABLE", "value": "Repeatable" },
+  { "key": "LABELS", "value": "Labels" },
+  { "key": "IDENTIFIERS", "value": "Identifiers" },
+  { "key": "NO_IDENTIFIERS", "value": "No Identifiers" },
+  { "key": "DESCRIPTION", "value": "Description" },
+  { "key": "NO", "value": "No" },
+  { "key": "PART_TYPE", "value": "Part Type" },
+  { "key": "DATA_TYPE", "value": "Data Type" },
+  { "key": "ENTITY_FIELD", "value": "Entity Field" },
+  {
+    "key": "VIEW_ALL_DOCS_IN_THIS_FORMAT",
+    "value": "View all Docs. in this Format."
+  },
+  {
+    "key": "VIEW_FOLDER_CONTENTS",
+    "value": "View folder contents"
+  },
+  {
+    "key": "FOLDER_CONTENTS",
+    "value": "Folder Contents"
+  },
+  {
+    "key": "STATUS",
+    "value": "Status"
+  },
+  {
+    "key": "SIZE(BYTES)",
+    "value": "Size (bytes)"
+  },
+  {
+    "key": "UPDATED_ON",
+    "value": "Updated On"
+  },
+  {
+    "key": "NO_DOCUMENTS_IN_SELECTED_FORMAT",
+    "value": "No Documents present in selected format!"
+  },
+  { "key": "TOKEN_ID", "value": "Token ID" },
+  { "key": "DISPLAY_ID", "value": "Display ID" },
+  { "key": "TOKEN_POLICY", "value": "Token Policy" },
+  { "key": "GRAPH_ATTR", "value": "Graph Attributes" },
+  { "key": "EDIT", "value": "Edit" },
+  { "key": "SAVE", "value": "Save" },
+  { "key": "CANCEL", "value": "Cancel" },
+  { "key": "LINKED_TXN_TYPE", "value": "Linked Txn. Type" },
+  { "key": "VIEW_DOCUMENT_FIELDS", "value": "View document fields" },
+  { "key": "VIEW_ON_GRAPH", "value": "View on graph" },
+  { "key": "VIEW_LOGS", "value": "View logs" },
+  { "key": "VIEW_DOC_DEFINITIONS", "value": "View document definitions" },
+  {
+    "key": "STRING",
+    "value": "String"
+  },
+  {
+    "key": "BOOLEAN",
+    "value": "Boolean"
+  },
+  {
+    "key": "DATE",
+    "value": "Date"
+  },
+  {
+    "key": "TIME",
+    "value": "Time"
+  },
+  {
+    "key": "INTEGER",
+    "value": "Integer"
+  },
+  {
+    "key": "FLOAT",
+    "value": "Float"
+  },
+  {
+    "key": "OK",
+    "value": "Ok"
+  },
+  {
+    "key": "ENTER_DATE_FORMAT",
+    "value": "Enter Date Format"
+  },
+  {
+    "key": "DATE_FORMAT",
+    "value": "Date Format"
+  },
+  {
+    "key": "ENTER_TIME_FORMAT",
+    "value": "Enter Time Format"
+  },
+  {
+    "key": "TIME_FORMAT",
+    "value": "Time Format"
+  },
+  {
+    "key": "DATE_FORMAT_HELPER_TEXT",
+    "value": "*DD for Date, MM for Month and YYYY for Year in any order seperated by ' - ', ' / ' or space."
+  },
+  {
+    "key": "DATE_FORMAT_EXAMPLE",
+    "value": "eg. MM/DD/YYYY, DD-MM-YYYY, MM DD YYYY"
+  },
+  {
+    "key": "TIME_FORMAT_HELPER_TEXT",
+    "value": "*DD for Date, MM for Month, YYYY for Year, HH for Hour, MM for Minute, and SS for Second. Date can be seperated using ' - ', ' / ' or space and seperate time using ' : '."
+  },
+  {
+    "key": "TIME_FORMAT_EXAMPLE",
+    "value": "eg. MM/DD/YYYY HH:MM:SS, DD-MM-YYYY HH:MM, MM DD YYYY HH:MM"
+  },
+  {
+    "key": "DOMAIN",
+    "value": "Domain"
+  },
+  {
+    "key": "FIELD_NAME",
+    "value": "Field Name"
+  },
+  {
+    "key": "KEYWORD",
+    "value": "Keyword"
+  },
+  {
+    "key": "TAGS",
+    "value": "Tags"
+  },
+  {
+    "key": "NO_TAGS",
+    "value": "No Tags"
+  },
+  {
+    "key": "ENTITY_FIELDS",
+    "value": "Entity Fields"
+  },
+  {
+    "key": "ENTITY_DEFINITIONS",
+    "value": "Entity Definitions"
+  },
+  {
+    "key": "VIEW_ENTITY_FIELDS",
+    "value": "View entity fields"
+  },
+  {
+    "key": "HEADER",
+    "value": "Header"
+  },
+  {
+    "key": "DETAIL",
+    "value": "Detail"
+  },
+  {
+    "key": "FOOTER",
+    "value": "Footer"
+  },
+  { "key": "FAAS_ID", "value": "FaaS ID" },
+  { "key": "REFRESH_DATA", "value": "Refresh data" },
+  { "key": "CONTENTS", "value": "Contents" },
+  {
+    "key": "VIEW_DOCUMENT_PARTS_AND_FIELDS",
+    "value": "View Document Parts and Fields"
+  },
+  {
+    "key": "XLS",
+    "value": "XLS"
+  },
+  {
+    "key": "CSV",
+    "value": "CSV"
+  },
+  {
+    "key": "PDF",
+    "value": "PDF"
+  },
+  {
+    "key": "ENTITY_TYPE",
+    "value": "Entitiy Type"
+  },
+  {
+    "key": "UPLOAD_DOCUMENTS",
+    "value": "Upload Documents"
+  },
+  {
+    "key": "UPLOAD",
+    "value": "Upload"
+  },
+  { "key": "FILE_NAME", "value": "File Name" }
+]

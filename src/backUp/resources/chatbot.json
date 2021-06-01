@@ -1,0 +1,83 @@
+[
+  { "key": "SUCCESSFULLY_VERIFIED_CIN", "value": "Successfully verified CIN." },
+  {
+    "key": "SORRY!_YOU_HAVE_ENTERED_AN_INVALID_ID",
+    "value": "Sorry! You have entered an Invalid ID"
+  },
+  {
+    "key": "VERIFYING_ID_PLEASE_WAIT...",
+    "value": "Verifying ID. Please wait..."
+  },
+  {
+    "key": "THIS_SEEMS_LIKE_A_{idType}.IS_THAT_RIGHT?",
+    "value": "This seems like a {idType}. Is that right?"
+  },
+  {
+    "key": "SORRY!_YOU_HAVE_ENTERED_INVALID_DETAILS",
+    "value": "Sorry! You have entered Invalid Details"
+  },
+  {
+    "key": "VERIFYING_DETAILS_PLEASE_WAIT...",
+    "value": "Verifying Details. Please wait..."
+  },
+  {
+    "key": "{corpName}_HAVE_BEEN_VERIFIED_SUCCESSFULLY!",
+    "value": "{corpName} have been verified successfully!"
+  },
+  {
+    "key": "SORRY!_COULDN'T_VERIFY_ENTERED_CORPORATE_NAME",
+    "value": "Sorry! Couldn't verify entered Corporate Name."
+  },
+  { "key": "VERIFYING_{corpName}...", "value": "Verifying {corpName}..." },
+  { "key": "HEY_I'M", "value": "Hey I'm" },
+  { "key": "YOGI", "value": "Yogi" },
+  {
+    "key": "WE_HAVE_SUCCESSFULLY_ONBOARDED_{corpName}_IN_OUR_PLATFORM",
+    "value": "We have successfully onboarded {corpName} in our platform."
+  },
+  {
+    "key": "SORRY!_COULDN'T_INITIATE_TOB_FLOW",
+    "value": "Sorry! Couldn't Initiate TOB Flow."
+  },
+  { "key": "INITIATING_ONBOARDING...", "value": "Initiating OnBoarding..." },
+  { "key": "SORRY!_COULDN'T_ONBOARD", "value": "Sorry! Couldn't OnBoard!" },
+  { "key": "ONBOARDING...", "value": "OnBoarding..." },
+  {
+    "key": "PERFECT!_I_HAVE_FOUND_MATCHING_RESULTS",
+    "value": "Perfect! I have found matching results."
+  },
+  {
+    "key": "SORRY!_NO_MATCHING_RESULTS_FOR_{avatarName}",
+    "value": "Sorry!. No matching results for {avatarName}."
+  },
+  { "key": "SEARCHING_{avatarName}...", "value": "Searching {avatarName}..." },
+  {
+    "key": "AVATAR_FOUND_MESSAGE",
+    "value": "Perfect! I have found your Avatar. You may click to navigate through data graph on the right to get more details."
+  },
+  {
+    "key": "AVATAR_WITH_THE_CIN:_{cin}_DOESNOT_EXIST._WOULD_YOU_LIKE_TO_ONBOARD?",
+    "value": "Avatar with the CIN: {cin} doesnot exist. Would you like to OnBoard ?"
+  },
+  {
+    "key": "OOPS!_SOMETHING_WENT_WRONG!",
+    "value": "Oops! Something went wrong!"
+  },
+  { "key": "SEARCHING_{cin}...", "value": "searching {cin}..." },
+  {
+    "key": "AVATAR_WITH_THE_CORPORATE_NAME:_{cName}_DOESNOT_EXIST._WOULD_YOU_LIKE_TO_ONBOARD?",
+    "value": "Avatar with the Corporate Name: {cName} doesnot exist. Would you like to OnBoard?"
+  },
+  { "key": "SEARCHING_{cName}...", "value": "searching {cName}..." },
+  {
+    "key": "CLICK_TO_NAVIGATE_THROUGH_GRAPH_MESSAGE",
+    "value": "You may click to navigate through data graph on the right to get more details."
+  },
+
+  {
+    "key": "SELECT_AVATAR_FROM_GRAPH_MESSAGE",
+    "value": "Please select your Avatar from Graph."
+  },
+  { "key": "UPLOAD", "value": "Upload" },
+  { "key": "SELECT_FILE", "value": "Select File" }
+]

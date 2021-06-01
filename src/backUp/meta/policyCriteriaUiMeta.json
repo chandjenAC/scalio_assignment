@@ -1,0 +1,37 @@
+{
+  "uiMeta": {
+    "whitelistAttr": [
+      {
+        "name": "id",
+        "prop": "read-only"
+      },
+      {
+        "name": "sequence",
+        "prop": "counter"
+      },
+      {
+        "name": "name",
+        "prop": "editable"
+      },
+      {
+        "name": "displayName",
+        "prop": "editable"
+      },
+      {
+        "name": "type",
+        "prop": "select",
+        "options": ["onboarding"]
+      },
+      {
+        "name": "criteriaType",
+        "prop": "select",
+        "options": ["process"]
+      },
+      {
+        "name": "status",
+        "prop": "select",
+        "options": ["ACTIVE", "INACTIVE"]
+      }
+    ]
+  }
+}
